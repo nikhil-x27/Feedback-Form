@@ -1,0 +1,94 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 201, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: none;
+    padding: 30px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(38, 38, 68);
+}
+
+.firstline{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 15px ;
+    gap: 10px;
+}
+
+.firstline input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 48%;
+    padding: 10px;
+}
+
+.secondline input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 48%;
+    padding: 10px;
+    /* margin-right:48% */
+}
+
+.thirdline input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 48%;
+    padding: 10px;
+}
+
+.radio-group p,
+.rating p{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
+.radio-group label ,
+.stars label{
+    margin-right: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    resize: none;
+}
+
+button{
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color: #da2e2e;
+}
